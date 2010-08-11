@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="Emdee Five.exe" version="1.0.0.1" publicKeyToken="56e2d978e5eaefcd" language="en" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Emdee Five" version="0.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Emdee Five.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Emdee Five.exe" size="8192">
+      <assemblyIdentity name="Emdee Five" version="0.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>c/UOAYsH7+3Aw/o1zYl5FvMl9l0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=Phobos\Neoaikon" issuerKeyHash="2b5dd71ae67bff7f3dc273a68b5ae65bd1338443" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>FUD/HlAvMeOvKb53bXze4xuJhtA=</DigestValue></Reference></SignedInfo><SignatureValue>k5dqlsqB62caOT0YBohO5nWV/QP5k4PU7P9OMJfik83g4E0fmJyLNcG0eNxDVqUrURxN+69+64xuLfmguiTUuiEP+Z823cmRKcVw4Ll2IcQMxqmvd8BJNKGzwEwhK9AC7f/XAvm3WveNx21ABSVj2V0ZXSa/p0mReXETbEIbtsY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>uVuR2261lcKjnkjc6DiWAZhXS5U1m2+QsdF7cqkTNOAG4OZubmNPe/FLhPM95pAgZni/pKT9T3km8KC2bpsVogJD1rpyQuwUWIbaoeuIFz2nHcD+kirBqebDdXUxIzitJWmRQ3TTHGtH2ekiDoUYgxsatVNkUSZV96FVLGnJfA0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="d086891be3de7c6d77be29afe3312f501eff4015" Description="" Url=""><as:assemblyIdentity name="Emdee Five.exe" version="1.0.0.1" publicKeyToken="56e2d978e5eaefcd" language="en" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Phobos\Neoaikon</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>s0hZcJoATjiwvqx4Q2vYEGbzoEc=</DigestValue></Reference></SignedInfo><SignatureValue>BAA7FhBW9P3xD/yGFzHIG8JXV5jYtBGN85HXUNKGKp1D40QCi2VQhgVWLo0ryDh9J0V1TaGq9d0eS6Gmw0e8wERXXqmszNSBC+uxOL0OlCpVixIKp9DlfCUYAD4Ve2aNcSJpWSevyJdWS3PJ7m28mb8xaGa1VHp82nZinkGjfH0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>uVuR2261lcKjnkjc6DiWAZhXS5U1m2+QsdF7cqkTNOAG4OZubmNPe/FLhPM95pAgZni/pKT9T3km8KC2bpsVogJD1rpyQuwUWIbaoeuIFz2nHcD+kirBqebDdXUxIzitJWmRQ3TTHGtH2ekiDoUYgxsatVNkUSZV96FVLGnJfA0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB1TCCAT6gAwIBAgIQcM/rap80qrZNTfjpAnkn1TANBgkqhkiG9w0BAQUFADApMScwJQYDVQQDHh4AUABoAG8AYgBvAHMAXABOAGUAbwBhAGkAawBvAG4wHhcNMTAwODEwMDYwMDEzWhcNMTEwODEwMTIwMDEzWjApMScwJQYDVQQDHh4AUABoAG8AYgBvAHMAXABOAGUAbwBhAGkAawBvAG4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALlbkdtutZXCo55I3Og4lgGYV0uVNZtvkLHRe3KpEzTgBuDmbm5jT3vxS4TzPeaQIGZ4v6Sk/U95JvCgtm6bFaICQ9a6ckLsFFiG2qHriBc9px3A/pIqwanmw3V1MSM4rSVpkUN00xxrR9npIg6FGIMbGrVTZFEmVfehVSxpyXwNAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAEWzs91c3m6+m8egmYEslW9Gj8zfrBzpDogRNhBAhvkDFLCXq61c6FFhNTK5P00vbCYMZm631m7mezYsxrJiT2MVX9ky8dn8K/H1yu226jGlRektYr3dJD/XB/B6stxF9d7nhjHqi+2KsXbAbscQfGJwo9qEbDnfnZxnYHovNe28=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
