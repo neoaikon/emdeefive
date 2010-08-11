@@ -1,0 +1,13 @@
+C:\Users\Neoaikon\Documents\Visual Studio 2008\Projects\Emdee Five\Emdee Five\bin\Debug\Emdee Five.exe.manifest
+C:\Users\Neoaikon\Documents\Visual Studio 2008\Projects\Emdee Five\Emdee Five\bin\Debug\Emdee Five.application
+C:\Users\Neoaikon\Documents\Visual Studio 2008\Projects\Emdee Five\Emdee Five\bin\Debug\Emdee Five.exe
+C:\Users\Neoaikon\Documents\Visual Studio 2008\Projects\Emdee Five\Emdee Five\bin\Debug\Emdee Five.pdb
+C:\Users\Neoaikon\Documents\Visual Studio 2008\Projects\Emdee Five\Emdee Five\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Neoaikon\Documents\Visual Studio 2008\Projects\Emdee Five\Emdee Five\obj\Debug\Emdee_Five.Program.resources
+C:\Users\Neoaikon\Documents\Visual Studio 2008\Projects\Emdee Five\Emdee Five\obj\Debug\Emdee Five.csproj.GenerateResource.Cache
+C:\Users\Neoaikon\Documents\Visual Studio 2008\Projects\Emdee Five\Emdee Five\obj\Debug\Emdee Five.exe.manifest
+C:\Users\Neoaikon\Documents\Visual Studio 2008\Projects\Emdee Five\Emdee Five\obj\Debug\Emdee Five.application
+C:\Users\Neoaikon\Documents\Visual Studio 2008\Projects\Emdee Five\Emdee Five\obj\Debug\Emdee Five.exe
+C:\Users\Neoaikon\Documents\Visual Studio 2008\Projects\Emdee Five\Emdee Five\obj\Debug\Emdee Five.pdb
+E:\Emdee Five\Emdee Five\obj\Debug\Emdee Five.exe
+E:\Emdee Five\Emdee Five\obj\Debug\Emdee Five.pdb
